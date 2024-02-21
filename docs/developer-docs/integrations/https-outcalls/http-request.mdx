@@ -31,8 +31,6 @@ type HttpResponse = {
     status_code: Nat16;
     headers: [HeaderField];
     body: Blob;
-    streaming_strategy: ?StreamingStrategy;
-    upgrade: ?Bool;
 };
 
 type HttpRequest = {
